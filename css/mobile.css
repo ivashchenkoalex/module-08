@@ -1,0 +1,185 @@
+/*header*/
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  padding: 25px;
+  z-index: 1;
+}
+
+.menu {
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu a {
+  padding-top: 7px;
+  text-align: center;
+  font-family: var(--ffMonserratB);
+  font-size: 14px;
+  color: white;
+}
+
+.menu a:last-child {
+  padding-top: 5px;
+  width: 90px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+h2 {
+  padding-top: 110px;
+  font-family: var(--ffMonserratB);
+  font-size: 20px;
+  color: white;
+}
+
+/*promo*/
+.promo {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.promo picture img {
+  display: block;
+  width: 100%;
+  background: var(--color-dark);
+}
+
+.promo h3 {
+  position: absolute;
+  max-width: 320px;
+  top: 39%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: var(--ffMonserratB);
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  z-index: 1;
+}
+
+.promo p {
+  position: absolute;
+  max-width: 320px;
+  top: 57%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 50px;
+  font-family: var(--ffRobotoL);
+  font-size: 18px;
+  z-index: 1;
+}
+
+.find {
+  position: absolute;
+  width: 280px;
+  height: 40px;
+  top: 68%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 1px solid var(--color-btn);
+  border-radius: 20px;
+  background: var(--color-btn);
+  font-family: var(--ffMonserratB);
+  font-size: 14px;
+  color: white;
+  z-index: 1;
+}
+
+/*partners*/
+.partners {
+  width: 100%;
+  margin: 70px auto 0px;
+  text-align: center;
+}
+
+.partners h4 {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  font-family: var(--ffMonserratB);
+  font-size: 22px;
+  color: var(--color-dark);
+}
+
+.partners li {
+  max-width: 240px;
+  height: auto;
+  margin: 10px auto;
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  background: var(--partner-back);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.partners li h5 {
+  color: var(--color-dark);
+  font-family: var(--ffMonserratB);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.partners li p {
+  color: #989898;
+  font-family: var(--ffRobotoL);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.partners li .photo:after {
+  display: block;
+  content: "";
+  position: relative;
+  bottom: 42px;
+  left: 82px;
+  width: 35px;
+  height: 35px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.partners li:nth-child(1) .photo:after {
+  background: #ff4e50 url(../img/icons/tv.png) no-repeat center;
+}
+
+.partners li:nth-child(2) .photo:after {
+  background: #ffa507 url(../img/icons/flask.png) no-repeat center;
+}
+
+.partners li:nth-child(3) .photo:after {
+  background: #1cd7ad url(../img/icons/coffe.png) no-repeat center;
+}
+
+.partners li:nth-child(4) .photo:after {
+  background: #4e73db url(../img/icons/telegram.png) no-repeat center;
+}
+
+/*footer*/
+.see {
+  display: block;
+  width: 280px;
+  height: 40px;
+  margin: 20px auto 80px;
+  border: 2px solid var(--color-btn);
+  background: none;
+  border-radius: 20px;
+  font-family: var(--ffMonserratB);
+  font-size: 14px;
+  color: var(--color-btn);
+}

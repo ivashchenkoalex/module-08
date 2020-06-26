@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+	/*header*/
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 45px;
+	}
+
+	.menu {
+		margin: 0;
+	}
+
+	h2 {
+		padding: 0;
+	}
+
+	/*promo*/
+	.promo h3 {
+		max-width: 768px;
+		top: 31%;
+		padding: 0 100px;
+		font-size: 50px;
+		letter-spacing: 1px;
+	}
+
+	.promo p {
+		max-width: 768px;
+		top: 52%;
+		font-size: 24px;
+	}
+
+	.find {
+		width: 225px;
+		top: 60%;
+	}
+
+	/*partners*/
+	.partners h4 {
+		max-width: 600px;
+	}
+
+	.partners ul {
+		margin: 30px 17%;
+		column-count: 2;
+	}
+	
+	.partners ul li {
+		margin: 0 auto;
+	}
+	
+	.partners ul li:nth-child(odd) {
+		margin-bottom: 70px;
+	}
+
+	/*footer*/
+	.see {
+		width: 225px;
+	}
+}
